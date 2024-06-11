@@ -3,7 +3,6 @@ import {
     Card,
     CardContent,
     CardDescription,
-    CardFooter,
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
@@ -19,7 +18,7 @@ import { auth, provider } from "@/firebase/firebaseConfig";
 const Login = () => {
 
     const [loading, setLoading] = useState(false);
-    const { register, handleSubmit, formState: { errors, isSubmitted }, watch } = useForm();
+    const { register, handleSubmit, formState: { errors } } = useForm();
     const [loginError, setLoginError] = useState<string | null>(null); 
     const nav = useNavigate()
 

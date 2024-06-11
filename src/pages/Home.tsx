@@ -17,13 +17,6 @@ const Home = () => {
         setShowDropzone(true);
     };
 
-    const handleDragLeave = (e: React.DragEvent<HTMLDivElement>) => {
-        e.preventDefault();
-        e.stopPropagation();
-        setIsDragging(false);
-        setShowDropzone(false)
-    };
-
     const toggleDropzone = () => {
         setShowDropzone(!showDropzone);
     }
