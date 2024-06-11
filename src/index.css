@@ -81,7 +81,7 @@
 }
 
 .home {
-  background-image: url('./assets/background.jpg');
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/dahoster-31a29.appspot.com/o/images%2Fbackground.jpg?alt=media&token=88dc0d8c-3fdf-4958-827a-2720ee8edc87');
 }
 .on-hover {
   position: relative;
